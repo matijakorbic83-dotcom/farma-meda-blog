@@ -1,0 +1,22 @@
+# Dependencies and generated builds
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+.npmrc
+
+# Operating system and editor files
+.DS_Store
+__MACOSX/
+.idea/
+.vscode/
+
+# Logs and temporary files
+*.log
+*.tmp
+
